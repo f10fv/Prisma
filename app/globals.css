@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loginPageContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-container input {
+  width: 340px;
+  padding: 5px;
+  outline: 0;
+  margin-top: 5px;
+  height: 15px;
+}
+
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 340px;
+  height: 40px;
+}
+
+.form-container p {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.form-container p span {
+  color: #007bff;
+}
+
+select {
+  width: 354px;
+  padding: 5px;
+  height: 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  outline: 0;
+}
+
+.selectLabel {
+  margin-top: 5px;
+}
+
+.select {
+  width: 354px;
+  padding: 5px;
+  height: 32px;
+  font-size: 13px;
+  outline: 0;
+}
+
+option {
+  padding: 15px;
+  margin: 10px;
+}
+
+/*****************************************/
+
+.dashBoardContainer {
+  width: 100%;
+  height: 100vh;
+  background: #18181b;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashBoardContainer .sideNav {
+  height: 100vh;
+  width: 300px;
+  background-color: #3a3a41;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.dashBoardContainer .sideNav h2 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.dashBoardContainer .sideNav h4 {
+  font-weight: normal;
+}
+
+.dashBoardContainer .sideNav div {
+  margin-bottom: 50px;
+}
+
+.dashBoardContainer .sideNav ul li {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.navBar {
+  width: 90%;
+  height: 100px;
+  background-color: #3a3a41;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tablesContainer {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.usersTable {
+  background: #3a3a41;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin: 20px 100px;
+  border-radius: 5px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.usersTable::-webkit-scrollbar {
+  width: 10px;
+}
+
+.section::-webkit-scrollbar-track {
+  background-color: #3a3a41;
+}
+
+.section::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin: 20px 0px;
+}
+
+.usersTable table {
+  width: 90%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1rem;
+}
+
+.usersTable table thead tr {
+  position: sticky;
+  text-align: center;
+}
+
+.usersTable table th,
+.usersTable table td {
+  padding: 12px 15px;
+  text-align: center;
+  width: 200px;
+}
+
+.usersTable table tbody tr:nth-of-type(even) {
+  background-color: #18181b;
+}
+
+/******************************************/
+
+.addEmp-form-container {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25vh 0px;
+}
+
+.addEmp-form-container label {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.addEmp-form-container input {
+  width: 340px;
+  padding: 5px;
+  outline: 0;
+  margin-top: 5px;
+  height: 15px;
+}
+
+.addEmp-form-container button {
+  background-color: #3a3a41;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 340px;
+  height: 40px;
+}
+
+.AddEmpContainer {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*************************************/
+
+.CategoryForm {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25vh 0px;
+}
+
+.CategoryForm label {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.CategoryForm input {
+  width: 340px;
+  padding: 5px;
+  outline: 0;
+  margin-top: 5px;
+  height: 15px;
+  margin-top: 15px;
+}
+
+.CategoryForm button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 350px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.usersProfile {
+  background: #3a3a41;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: #fff;
+  margin: 20px 100px;
+  border-radius: 5px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.usersProfile h1 {
+  align-self: center;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.userDetails p {
+  font-size: 21px;
+  margin: 10px 0px;
+  color: #b1b1b1;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.userDetails p span {
+  font-size: 19px;
+  color: #fff;
+}
+
+.contractsTable {
+  background: #3a3a41;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: #fff;
+  margin: 20px 100px;
+  border-radius: 5px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.contractsTable table {
+  width: 90%;
+  margin-left: 60px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1rem;
+}
+
+.contractsTable table thead tr {
+  position: sticky;
+  text-align: center;
+}
+
+.contractsTable table th,
+.contractsTable table td {
+  padding: 12px 15px;
+  text-align: center;
+  width: 200px;
+}
+
+.contractsTable table tbody tr:nth-of-type(even) {
+  background-color: #18181b;
+}
+
+.loading {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.loader {
+  height: 20%;
+  width: 20%;
+  border: 0px solid #000;
+  outline: 0;
+}
